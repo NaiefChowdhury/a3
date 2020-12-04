@@ -8,12 +8,12 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 app.get('/', function(req, res) {
-res.sendFile("C:/Users/dinal/3D Objects/Mongo_Atlas/index.html");
+res.sendFile("./index.html");
 
 });
 
 app.get('/samin', function(req, res) {
-res.sendFile("C:/Users/dinal/3D Objects/Mongo_Atlas/index2.html");
+res.sendFile("./index2.html");
 
 });
 
